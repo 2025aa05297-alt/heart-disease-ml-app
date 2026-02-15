@@ -1,53 +1,3 @@
-# heart-disease-ml-app
-Logistic Regression Metrics
-Accuracy: 0.8097560975609757
-AUC: 0.9298095238095238
-Precision: 0.7619047619047619
-Recall: 0.9142857142857143
-F1 Score: 0.8311688311688312
-MCC: 0.630908308763638
-
-
-Decision Tree Metrics (Regularized)
-Accuracy: 0.8878048780487805
-AUC: 0.9584761904761905
-Precision: 0.8942307692307693
-Recall: 0.8857142857142857
-F1 Score: 0.8899521531100478
-MCC: 0.775566572814591
-
-KNN Metrics
-Accuracy: 0.8634146341463415
-AUC: 0.9629047619047618
-Precision: 0.8737864077669902
-Recall: 0.8571428571428571
-F1 Score: 0.8653846153846154
-MCC: 0.7269351910363394
-
-Naive Bayes Metrics
-Accuracy: 0.8292682926829268
-AUC: 0.9042857142857142
-Precision: 0.8070175438596491
-Recall: 0.8761904761904762
-F1 Score: 0.8401826484018264
-MCC: 0.6601634114374199
-
-Random Forest Metrics (Regularized)
-Accuracy: 0.9024390243902439
-AUC: 0.9714285714285714
-Precision: 0.8899082568807339
-Recall: 0.9238095238095239
-F1 Score: 0.9065420560747663
-MCC: 0.8051910364710595
-
-XGBoost Metrics
-Accuracy: 0.9902439024390244
-AUC: 1.0
-Precision: 0.9813084112149533
-Recall: 1.0
-F1 Score: 0.9905660377358491
-MCC: 0.9806539873934406
-
 a. Problem Statement : 
 
 The objective of this assignment is to build and evaluate multiple machine learning classification models to predict the presence of heart disease in a patient based on clinical and physiological attributes. The task involves implementing different classification algorithms, comparing their performance using standard evaluation metrics, and deploying the trained models using an interactive Streamlit web application.
@@ -105,6 +55,5 @@ d. Model Performance Observations
 | Naive Bayes              | Naive Bayes performed reasonably well with high recall, making it effective for identifying positive cases. However, its strong feature independence assumption limited overall accuracy and precision.                               |
 | Random Forest (Ensemble) | After regularization, Random Forest demonstrated strong and consistent performance across all metrics. The ensemble bagging approach reduced variance and improved generalization compared to a single decision tree.                 |
 | XGBoost (Ensemble)       | XGBoost achieved the best overall performance, with near-perfect accuracy, AUC, and MCC. The boosting mechanism and regularization allowed the model to capture complex patterns effectively while maintaining strong generalization. |
-
 
 
